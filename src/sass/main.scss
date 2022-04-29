@@ -27,7 +27,7 @@
 }
 
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 @mixin flex-center {
   display: flex;
@@ -76,15 +76,41 @@ body {
 // **************************************
 // CREATE BOX:
 .box {
-  padding: 20px 20px;
+  padding: 22px 18px;
   margin: 0 10px;
-  border: 1px solid #000;
+  // border: 1px solid #000;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 15px 20px 0 #4b4b4b4d;
+  position: absolute;
+  top: -102px;
+  left: 0;
+  background-color: #fff;
+
   &__text {
     margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16.85px;
+    line-height: 21px;
+    padding: 0 10px;
   }
   &__btn {
+    padding: 10px 0;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400, Regular;
+    box-shadow: 0 15px 20px 0 #4b4b4b4d;
+    &--color {
+      background: linear-gradient(270deg, #34f2c6 2.2%, #1ecef7 100%);
+      color: #fff;
+      border-radius: 400px;
+      border: none;
+    }
   }
+}
+
+// MAIN:
+.main {
+  position: relative;
 }
