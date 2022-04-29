@@ -46,3 +46,13 @@ body {
   background-image: url("../Assets/bg-header.svg"); }
   .header__img {
     padding: 72px 159.33px 103.48px 27.84px; }
+
+.box {
+  padding: 20px 20px;
+  margin: 0 10px;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column; }
+  .box__text {
+    margin-bottom: 20px; }
