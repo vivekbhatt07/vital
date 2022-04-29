@@ -12,18 +12,20 @@
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: "Segoe UI", sans-serif; }
+
 .nav {
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 24px 16px;
-  position: relative;
-  border-bottom: 0.1px solid #b2b2b2; }
+  border-bottom: 1px #b2b2b2; }
   .nav__logo {
     display: flex;
-    align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
   .nav__img {
     width: 51.76px;
     height: 52.15px;
@@ -39,3 +41,8 @@
     position: absolute;
     right: 10px;
     color: #b2b2b2; }
+
+.header {
+  background-image: url("../Assets/bg-header.svg"); }
+  .header__img {
+    padding: 72px 159.33px 103.48px 27.84px; }

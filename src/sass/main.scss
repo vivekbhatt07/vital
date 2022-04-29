@@ -17,7 +17,7 @@
 @import "./pages/home";
 
 // ***************************
-
+// @import "../src/Assets/bg-header.svg";
 *,
 *::before,
 *::after {
@@ -26,18 +26,21 @@
   padding: 0;
 }
 
-.nav {
-  background-color: #fff;
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+@mixin flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.nav {
+  background-color: #fff;
+  @include flex-center;
   padding: 24px 16px;
-  position: relative;
-  border-bottom: 0.1px solid #b2b2b2;
+  border-bottom: 1px #b2b2b2;
   &__logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-center;
   }
   &__img {
     width: 51.76px;
@@ -58,5 +61,15 @@
     position: absolute;
     right: 10px;
     color: #b2b2b2;
+  }
+}
+
+// **************************************
+// HEADER:
+
+.header {
+  background-image: url("../Assets/bg-header.svg");
+  &__img {
+    padding: 72px 159.33px 103.48px 27.84px;
   }
 }
