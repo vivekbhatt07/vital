@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="nav">
       <div className="nav__logo">
         <img className="nav__img" src={Vital} alt="logo" />
-        <span className="nav__name">VITAL</span>
+        <span className="nav__name">vital</span>
       </div>
     </nav>
   );

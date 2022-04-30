@@ -6,7 +6,7 @@ export default function Box() {
       <p className="box__text">
         Create, share, participate securely in a transparent and automated way
       </p>
-      <button className="box__btn box__btn--color">Create</button>
+      <button className="box__btn btn">Create</button>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+// HEADER:
+
+.header {
+  background-image: url("../Assets/bg-header.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  &__contentWrapper {
+    padding: 72px 160px 0 28px;
+  }
+}
